@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body{
+    background-color: #f0ebf8;
+}
+
+h1,h2,h3,h4,h5{
+    color: #70747a;
+}
+
+p,
+label{
+    color: #444;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;    
+    flex-wrap: wrap;
+    background-color: #d9d9d9;
+    border-bottom: 2px solid #db1212 ;
+}
+
+img{
+    height: 120px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #001021;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.menu li{
+    list-style: none;
+    margin-left: 10px;
+    
+}
+
+#title{
+    border:none;
+    border-bottom: 1px solid #CCC;
+    padding: 5px 0;
+    width: 400px;
+}
+
+input[type="text"],
+input[type="number"],
+select{
+    width: 200px;
+    padding: 5px 0;
+    margin-top: 5px;
+}
+
+input[type="file"]{
+    width: 400px;
+    margin-top: 10px;
+}
+
+textarea{
+    width: 400px;
+    padding: 10px 5px;
+    margin-top: 5px;
+}
+
+.form-container{
+    background-color: #fdfdfd;
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;    
+}   
+
+.form-header{
+    padding: 15px 0 20px 0;
+}
+
+.form-header h3{
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 2px solid #dfdfdf;
+    line-height: 30px;
+    width: 200px;
+}
+
+.form-body{
+    padding: 20px;
+}
+
+.form-body h4{
+    margin-bottom: 30px;
+}
+
+.form-body .title{
+    margin-bottom: 15px;
+}
+
+.required-field{
+    color: #d80835
+}
+
+.box-input{ 
+    margin-bottom: 35px;
+}
+
+.block{
+    display: block;
+}
+
+.Box-input p{
+    margin-bottom: 15px;
+}
+
+.btn-submit{
+    background-color: #d9d9d9;
+    border: 2px solid red;
+    color: #001021;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+}   
+
+.btn-submit:hover{
+    background-color: #fff;
+    border: 1px solid #444;
+    color: red;
+}
+
+footer{
+    text-align: center;
+    margin: 20px 0 50px
+}
+
+
+
+
+
+

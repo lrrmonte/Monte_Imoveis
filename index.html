@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monte Imoveis</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header-container">
+            <a href="#"><img id="logo" src="./img/Monte.png" alt="logo Monte Imoveis"></a>
+            <h2>Alugue seu imóvel conosco</h2>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>   
+        </header>
+        <div class="form-container">
+            <div class="form-header">
+                <h3>Cadastre seu imóvel</h3>    
+            </div>
+            <div class="form-body">
+                <h4>Dados do imóvel</h4>
+                <form>
+                    <div class="box-input">
+                        <label for="title">Título do anúncio<span class="required-field">*</span></label>
+                        <input 
+                        type="text" 
+                        name="title" 
+                        id="title" 
+                        class="block" 
+                        placeholder="digite um título para alugar seu imóvel"
+                        minlength="1"
+                        maxlength="30"
+                        required>     
+                    </div>
+                    <div class="box-input">
+                        <label for="type">Tipo do imóvel</label>
+                        <select 
+                        name="type" 
+                        id="type" 
+                        class="block"
+                        required>
+                        <option value=" "> </option>
+                        <option value="casa">casa</option>
+                        <option value="apartamento">apartamento</option>
+                        <option value="salão">salão</option>
+                        <option value="barracão">barracão</option>
+                        <option value="galpão">galpão</option>
+                        <option value="sítio">sítio</option>
+                        <option value="chácara">chácara</option>
+                        <option value="sala comercial">sala comercial</option>
+                        <option value="outros">outros</option>
+                        </select>
+                    </div>
+                    <div class="box-input">
+                        <label for="price">Valor<span class="required-field">*</span></label>
+                        <input
+                        type="number" 
+                        name="price"
+                        id="price" 
+                        class="block"
+                        placeholder="Defina o valor do aluguel">
+                    </div>
+                    <div class="box-input">
+                        <label for="area">Area(m²)<span class="required-field">*</span></label>
+                        <input 
+                        type="number" 
+                        name="area" 
+                        id="area"
+                        class="block" 
+                        placeholder="Digite o m² do imóvel">
+                    </div>
+                    <div class="box-input">
+                    <label for="dorm">Dormitórios <span class="required-field">*</span></label>
+                        <input 
+                        type="number"
+                        name="dorm"
+                        id="dorm"
+                        class="block"
+                        placeholder="Informe o número de dormitórios"
+                        required>
+                    </div>
+                    <div class="box-input">
+                        <label for="suite">Suites</label>
+                        <input 
+                        type="number"
+                        name="suite"
+                        id="suite"
+                        class="block"
+                        placeholder="Informe o número de suites"
+                        required>
+                    </div>
+                    <div class="box-input">
+                        <label for="description"><span class="required-field">*</span>Descrição</label>
+                        <textarea 
+                        name="description" 
+                        id="description"
+                        class="block"
+                        placeholder="Digte os detalhes do imóvel, por exemplo se necessita de alguma reforma">
+                        </textarea>
+                    </div>    
+                    <div class="box-input">
+                        <p>Fotos do imóvel:<span class="required-field">*</span></p>
+                        <input
+                        type="file" 
+                        multiple 
+                        accept="image/png, image/jpg" 
+                        id="image" 
+                        name="image"
+                        required>
+                   </div>
+                    <div class="box-input">
+                        <input type="submit" 
+                        id="enviar" 
+                        value="Enviar"
+                        class="btn-submit">
+                    </div>
+                </form>
+        </div>
+        <footer>
+            <p>Monte Imóveis @ 2023</p>
+        </footer>     
+    </div>
+    
+</body>
+</html>
